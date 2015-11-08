@@ -12,4 +12,6 @@ class Hello extends React.Component {
   }
 }
 
+Hello.propTypes = { name: React.PropTypes.string };
+
 export default Hello;

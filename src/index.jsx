@@ -15,7 +15,7 @@ class App extends React.Component {
   }
 
   render() {
-    return (<Hello name={this.state.name} />)
+    return (<Hello name={this.state.name}/>)
   }
 }
 
